@@ -3,3 +3,22 @@ git 回退版本
 
 
 git log 查看历史提交的的记录
+
+$ git log
+commit 3769e97079f3ae436e7580d9baec3fb22a2ce480
+Author: fly891583770 <18317905756@163.com>
+Date:   Tue Aug 29 21:49:39 2017 +0800
+
+    add 1.txt log
+
+commit ffd33d1fbb97813ad9632a19e21ce02c6c57f7a2
+Author: fly891583770 <18317905756@163.com>
+Date:   Tue Aug 29 21:34:36 2017 +0800
+
+    add 1.txt
+
+
+git reset 回退历史版本
+
+git reset --hard HEAD 回退上次的提交版本
+
