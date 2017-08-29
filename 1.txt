@@ -22,3 +22,6 @@ git reset 回退历史版本
 
 git reset --hard HEAD 回退上次的提交版本
 git reset --hard 376 回退到某个版本
+git reset HEAD 1.txt  把提交暂存区1.txt拿到工作区里
+
+git checkout --file 撤销工作区file文件的修改
