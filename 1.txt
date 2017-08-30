@@ -25,7 +25,10 @@ git reset --hard 376 回退到某个版本
 git reset HEAD 1.txt  把提交暂存区1.txt拿到工作区里
 
 git checkout --file 撤销工作区file文件的修改
-
 git checkout -b dev 创建并切换分支
+git branch -D dev 删去分支
 
 解决冲突
+
+
+
