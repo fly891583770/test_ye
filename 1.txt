@@ -28,7 +28,14 @@ git checkout --file 撤销工作区file文件的修改
 git checkout -b dev 创建并切换分支
 git branch -D dev 删去分支
 
-解决冲突
+解决冲突 
+
+git merge 分支
+git remote -v 看仓库信息
+
+git push origin master 推送master分支
+git push origin dev 推送dev分支
 
 
 
+ddd
